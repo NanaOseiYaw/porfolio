@@ -1,0 +1,47 @@
+:root{
+    /* dark mode color */
+    --clr-primary-dark: #34495E;
+    --clr-secondary-dark: #FFD700;
+    --clr-background-dark: #121212;
+    --clr-text-dark: #EAEAEA;
+    --clr-accent-dark: #A52A2A;
+    /* light mode color */
+    --clr-primary-light: #2C3E50;
+    --clr-secondary-light: #D4AF37;
+    --clr-background-light: #FFFF;
+    --clr-text-light: #1C1C1C;
+    --clr-accent-light: #800020;
+}
+
+
+*{  
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0,5rem);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'General Sans', sans-serif;
+}
+
+img,
+picture,
+video,
+canvas,
+svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+
+button{
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
