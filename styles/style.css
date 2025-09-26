@@ -5,6 +5,13 @@
   --clr-background-dark: #121212;
   --clr-text-dark: #F5F5F5;
   --clr-accent-dark: #8B0000;
+  --clr-border-dark: rgba(255, 255, 255, 0.1);
+  --shadow-dark: 0 4px 6px rgba(255, 255, 255, 0.05),
+               0 2px 4px rgba(255, 255, 255, 0.04);
+  --shadow-dark-hover: 0 6px 10px rgba(255, 255, 255, 0.08),
+                     0 3px 6px rgba(255, 255, 255, 0.06);
+  --shadow-dark-active: 0 2px 4px rgba(255, 255, 255, 0.06),
+                      0 1px 2px rgba(255, 255, 255, 0.04);
 
   /* Light mode */
   --clr-primary-light: #2C3E50;
@@ -12,10 +19,34 @@
   --clr-background-light: #FFFFFF;
   --clr-text-light: #1C1C1C;
   --clr-accent-light: #800020;
+  --clr-border-light: #E0E0E0;
+  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1),
+                0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-light-hover: 0 6px 10px rgba(0, 0, 0, 0.15),
+                      0 3px 6px rgba(0, 0, 0, 0.10);
+  --shadow-light-active: 0 2px 4px rgba(0, 0, 0, 0.12),
+                       0 1px 2px rgba(0, 0, 0, 0.08);
 
   /* Optional neutrals */
   --clr-muted-dark: #888888;
   --clr-muted-light: #666666;
+
+  /* Font sizes */
+  --size-xxs: 0.5rem;
+  --size-xs: 0.75rem;
+  --size-sm: 0.875rem ;
+  --size-base: 1rem;
+  --size-lg: 1.125rem;
+  --size-xl: 1.25rem;
+  --size-2xl: 1.5rem;
+  --size-3xl: 1.875rem;
+  --size-4xl: 2.25rem;
+  --size-5xl: 3rem;
+  --size-6xl: 3.75rem;
+  --size-7xl: 4.5rem;
+  --size-8xl: 6rem;
+  --size-9xl: 8rem;
+  --size-10xl: 10rem;
 }
 
 *{  
