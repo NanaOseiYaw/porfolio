@@ -1,18 +1,22 @@
-:root{
-    /* dark mode color */
-    --clr-primary-dark: #34495E;
-    --clr-secondary-dark: #FFD700;
-    --clr-background-dark: #121212;
-    --clr-text-dark: #EAEAEA;
-    --clr-accent-dark: #A52A2A;
-    /* light mode color */
-    --clr-primary-light: #2C3E50;
-    --clr-secondary-light: #D4AF37;
-    --clr-background-light: #FFFF;
-    --clr-text-light: #1C1C1C;
-    --clr-accent-light: #800020;
-}
+:root {
+  /* Dark mode */
+  --clr-primary-dark: #34495E;
+  --clr-secondary-dark: #FFD700;
+  --clr-background-dark: #121212;
+  --clr-text-dark: #F5F5F5;
+  --clr-accent-dark: #8B0000;
 
+  /* Light mode */
+  --clr-primary-light: #2C3E50;
+  --clr-secondary-light: #D4AF37;
+  --clr-background-light: #FFFFFF;
+  --clr-text-light: #1C1C1C;
+  --clr-accent-light: #800020;
+
+  /* Optional neutrals */
+  --clr-muted-dark: #888888;
+  --clr-muted-light: #666666;
+}
 
 *{  
     margin: 0;
@@ -26,6 +30,8 @@ html{
 
 body{
     font-family: 'General Sans', sans-serif;
+    background-color: var(--clr-background-dark);
+    color: var(--clr-text-dark);
 }
 
 img,
@@ -44,4 +50,12 @@ button{
     border: none;
     background: none;
     cursor: pointer;
+    color: inherit;
+}
+
+a{
+    color: var(--clr-accent-dark);
+}
+strong{
+    color: var(--clr-secondary-dark);
 }
