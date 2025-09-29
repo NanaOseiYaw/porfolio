@@ -23,7 +23,7 @@
     text-decoration: none;
     letter-spacing: -0.05em;
     background-color: var(--clr-accent-dark);
-    color:var(--clr-text-dark);
+    color:#F5F5F5;
     padding: 0.5em 1em;
     border-radius: 6px;
     box-shadow: var(--shadow-dark);

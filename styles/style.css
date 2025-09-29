@@ -13,20 +13,6 @@
   --shadow-dark-active: 0 2px 4px rgba(255, 255, 255, 0.06),
                       0 1px 2px rgba(255, 255, 255, 0.04);
 
-  /* Light mode */
-  --clr-primary-light: #2C3E50;
-  --clr-secondary-light: #D4AF37;
-  --clr-background-light: #FFFFFF;
-  --clr-text-light: #1C1C1C;
-  --clr-accent-light: #800020;
-  --clr-border-light: #E0E0E0;
-  --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1),
-                0 2px 4px rgba(0, 0, 0, 0.06);
-  --shadow-light-hover: 0 6px 10px rgba(0, 0, 0, 0.15),
-                      0 3px 6px rgba(0, 0, 0, 0.10);
-  --shadow-light-active: 0 2px 4px rgba(0, 0, 0, 0.12),
-                       0 1px 2px rgba(0, 0, 0, 0.08);
-
   /* Optional neutrals */
   --clr-muted-dark: #888888;
   --clr-muted-light: #666666;
